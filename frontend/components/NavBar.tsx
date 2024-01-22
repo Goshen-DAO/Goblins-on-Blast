@@ -35,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     // Display a toast message when the component mounts
     if (!isToastShown) {
       toast.info(
-        "Make sure to access the correct link https://goblinminer.goshendao.com to avoid phishing risks.",
+        "Make sure to access the correct link https://gob.goshendao.com to avoid phishing risks.",
         {
           position: "top-center",
           autoClose: false, // Set to false to allow manual closing
